@@ -1,6 +1,6 @@
 # Image Gallery Website
 
-This is a responsive image gallery website created using HTML, CSS, TypeScript, and Angular. It allows users to search for high-quality images using keywords and displays them in a visually appealing gallery layout.
+This website is a responsive image gallery built with HTML, CSS, TypeScript, and Angular. Users can search for high-quality images using keywords and view them in a visually appealing gallery layout.
 
 ## Features
 
@@ -12,7 +12,7 @@ This is a responsive image gallery website created using HTML, CSS, TypeScript, 
 ## Technologies Used
 
 - HTML5
-- CSS3
+- SCSS
 - TypeScript
 - Angular
 - Unsplash API
