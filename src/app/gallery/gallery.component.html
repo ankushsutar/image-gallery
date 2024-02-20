@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="top-header">
+    <div class="logo">
+      <!-- Insert your logo here -->
+      <img src="/assets/images/logo.png" alt="Logo" />
+    </div>
+    <div>
+      <app-search-bar (search)="handleSearch($event)"></app-search-bar>
+    </div>
+  </div>
+
+  <div class="gallery" *ngIf="this.images.length > 0">
+    <app-image-grid [isLoading]="true" [images]="this.images"></app-image-grid>
+  </div>
+</div>

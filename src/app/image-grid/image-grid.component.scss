@@ -1,0 +1,27 @@
+/* Image grid */
+.image-grid {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  column-count: 4;
+  column-gap: 20px;
+
+  @media screen and (max-width: 780px) {
+    column-count: 3;
+  }
+  @media screen and (max-width: 580px) {
+    column-count: 2;
+  }
+  @media screen and (max-width: 420px) {
+    column-count: 1;
+    padding: 0.5rem;
+  }
+}
+
+.image-grid > div {
+  break-inside: avoid;
+}
+
+.image-grid::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar for Chrome, Safari, and Opera */
+}

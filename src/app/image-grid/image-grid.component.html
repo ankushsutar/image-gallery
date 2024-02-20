@@ -1,0 +1,11 @@
+<ng-container *ngIf="isLoading; else loading">
+  <div class="image-grid">
+    <app-image-card
+      *ngFor="let image of images"
+      [image]="image"
+    ></app-image-card>
+  </div>
+</ng-container>
+<ng-template #loading>
+  <div class="loading-indicator">Loading...</div>
+</ng-template>
